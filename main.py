@@ -92,7 +92,6 @@ def plot_efficiency(efficiency_history, n_iterations):
     plt.plot(range(1, n_iterations), efficiency_history)
     plt.xlabel('Iterations')
     plt.ylabel('Efficiency')
-    plt.title('Efficiency over Iterations')
     plt.show()
 
 # Execute the code
